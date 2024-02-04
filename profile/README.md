@@ -56,15 +56,15 @@
  1. <a href="https://github.com/Wutche">Wutche</a>
 
 
- 2. <a href="https://github.com/godriceeichie">Gofrice</a>
+ 2. <a href="https://github.com/godriceeichie">Godrice</a>
 
 
  3. <a href="https://github.com/aleymans">Allenz</a>
 
 
- 4. <a href="https://github.com/Anthonyushie">Anthony</a>
+ 4. <a href="https://github.com/successaje">Success</a>
  
- 
+ 5. <a href="https://github.com/Anthonyushie">Anthony</a> 
 
 **- Project Links:**
   - GitHub repository: `https://github.com/QuailBox/Sol-Nexus-Front-end.git`
