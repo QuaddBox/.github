@@ -75,7 +75,6 @@
 **- Additional Features:**
   - Ticket resale marketplace
   - Fan loyalty programs
-  - Integration with metaverse events
   - Cross-chain compatibility
 
 **- Community Engagement:**
