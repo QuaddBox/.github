@@ -24,7 +24,7 @@ QuaddFinance is an innovative project built for the tbDEX Hackathon. It focuses 
 ---
 
 
----
+### **Project Design Considerations**  
 
 ### **Profitability**  
 QuaddFinance plans to generate revenue through transaction fees, currency exchange markups, partnerships with PFIs, and offering premium services such as enhanced security and faster transactions.
