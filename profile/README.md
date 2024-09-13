@@ -8,9 +8,9 @@ QuaddFinance is an innovative project built for the tbDEX Hackathon. It focuses 
 
 ---
 
-## Organization Overview
+## Overview
 
-### **Organization Name:** QuaddBox/QuaddLabs  
+### **Team Name:** QuaddLabs  
 ### **Project Name:** QuaddFinance
 
 ### **Repositories:**
