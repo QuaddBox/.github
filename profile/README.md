@@ -23,6 +23,26 @@ QuaddFinance is an innovative project built for the tbDEX Hackathon. It focuses 
 
 ---
 
+
+---
+
+### **Profitability**  
+QuaddFinance plans to generate revenue through transaction fees, currency exchange markups, partnerships with PFIs, and offering premium services such as enhanced security and faster transactions.
+
+### **Optionality**  
+QuaddFinance plans to handle multiple PFI offerings by dynamically ranking services based on user preferences, performance, and cost. Users will be able to choose their preferred PFI, or allow the app to recommend the best option using smart matching algorithms.
+
+### **Customer Management**  
+QuaddFinance securely manages user DIDs and verifiable credentials using the tbDEX SDK. Credentials will be encrypted and shared only with user authorization, ensuring secure identity management and wallet recovery.
+
+### **Customer Satisfaction**  
+QuaddFinance plans to track customer satisfaction through feedback, performance monitoring, and reviews. Users will be able to rate their experience with PFIs, and the app will aggregate these ratings to ensure transparency and quality service.
+
+---
+
+This version includes future intentions, making it clear that these features are planned for implementation.
+
+
 ## Project Structure
 
 ### **1. Frontend Repository:**
