@@ -120,13 +120,13 @@ We welcome contributions to improve QuaddFinance. Please fork the repositories a
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License
 
 ---
 
 ## Contact
 
-For any questions, feel free to reach out : anthonytwan75official@gmail.com
+For any questions, feel free to reach out: anthonytwan75official@gmail.com
 
 - **Team** [QuaddBox/QuaddLabs](https://github.com/QuaddBox)
 - **Members:**
