@@ -29,15 +29,16 @@ QuaddFinance is an innovative project built for the tbDEX Hackathon. It focuses 
 **Repo URL:** [Link to QuaddFinance Frontend Repo]
 
 #### **Technologies:**
-- React.js
+- Nextjs
 - Tailwind CSS
-- tbDEX SDK integration
+- Typescript
+- tbDEX SDK integration(Pending ⚙)
 
-#### **Features:**
+#### **UI Features:**
 - User registration and authentication
 - Wallet management (create, fund, withdraw)
 - Transaction history
-- Responsive design for desktop and mobile users
+- Responsive design for desktop(Done) mobile users(Pending)
 - Easy-to-navigate UI/UX
 
 #### **Installation & Setup:**
@@ -69,15 +70,15 @@ REACT_APP_BACKEND_URL=<BACKEND_URL>
 - Node.js
 - Express.js
 - MongoDB
-- USSD Integration APIs (Africa's Talking or Twilio)
+- USSD Integration APIs (Africa's Talking)
+- OnRender
 - tbDEX SDK
 
 #### **Features:**
 - USSD wallet management
-- Secure user authentication
-- Transaction processing
+- Transaction processing(transfers/funding/receiving)
 - Currency conversion via tbDEX
-- Error handling and logging
+
 
 #### **Installation & Setup:**
 ```bash
@@ -127,16 +128,19 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 For any questions, feel free to reach out to us:
 
-- **GitHub Organization:** [QuaddBox/QuaddLabs](https://github.com/QuaddBox)
-- **Email:** support@quaddlabs.com
+- **Team** [QuaddBox/QuaddLabs](https://github.com/QuaddBox)
+- **Members:**
+- <a href="https://github.com/Wutche">Wutche</a>
+  <a href="https://github.com/Anthonyushie">Tony</a>
+
 - **Hackathon:** tbDEX Hackathon 2024
 
 ---
 
 ### Acknowledgments
 
-Special thanks to the tbDEX community and our team members for their valuable contributions to this project.
+Special thanks to the tbDEX discord community and our team members for their valuable contributions to this project.
 
 --- 
 
-Feel free to edit any details such as repository URLs or any specifics on the technologies you use.
+
