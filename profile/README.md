@@ -1,257 +1,142 @@
-# Quadd Finance: USSD Wallet Application Documentation
 
-## Project Overview
 
-**Quadd Finance** is an innovative USSD-based wallet application designed for secure and efficient financial transactions across multiple liquidity providers. This cutting-edge solution leverages the tbDEX SDK to implement robust decentralized identity management and credential verification, enabling easy access to financial services via basic USSD commands.
+# QuaddLabs 
 
-### Key Features
+## Welcome to QuaddFinance
 
-- USSD-based interface for widespread accessibility
-- Integration with tbDEX SDK for decentralized identity management
-- Multi-provider liquidity access
-- Real-time credential verification
-- Secure transaction processing
+QuaddFinance is an innovative project built for the tbDEX Hackathon. It focuses on financial inclusion by offering a simple and secure USSD-powered wallet solution, backed by tbDEX technology. This project consists of two core repositories: the **frontend web app** and the **backend USSD app**.
 
-## System Architecture
+---
 
-### Flowchart Overview
+## Organization Overview
 
-For a comprehensive visual representation of the Quadd Finance system architecture, please refer to the included flowchart. This diagram illustrates the USSD interaction model and backend integration in detail.
+### **Organization Name:** QuaddBox/QuaddLabs  
+### **Project Name:** QuaddFinance
 
-[Flowchart Reference](sandbox:/mnt/data/QUAD%20FINANCE%20USSD%20FLOW11.jpg)
+### **Repositories:**
 
-### Core Components
+- **Frontend Web App**  
+  This repository houses the web-based user interface for QuaddFinance. The frontend app is designed to provide users with a seamless experience for managing their wallets, viewing transactions, and interacting with tbDEX features.
 
-1. **DID Management Module**
-   - Utilizes blockchain technology for secure user identity management
-   - Implements tbDEX SDK for decentralized identity operations
-   - Ensures unique and verifiable user identities within the system
+- **Backend USSD Service**  
+  This repository contains the backend for the USSD wallet, which allows users to access and manage their wallets through simple USSD commands. This service makes financial services accessible to those without internet connectivity, fostering financial inclusion.
 
-2. **Credential Verification Module**
-   - Integrates advanced APIs for real-time identity verification
-   - Supports multiple credential types (e.g., government ID, utility bills)
-   - Implements risk scoring algorithms for enhanced security
+---
 
-3. **Transaction Processing Module**
-   - Connects to Participating Financial Institutions (PFIs) to execute transactions
-   - Implements multi-signature protocols for transaction security
-   - Provides real-time transaction status updates
+## Project Structure
 
-4. **USSD Interface Layer**
-   - Translates USSD commands into API calls
-   - Implements session management for continuous user interaction
-   - Provides user-friendly menu navigation and input validation
+### **1. Frontend Repository:**
+**Repo URL:** [Link to QuaddFinance Frontend Repo]
 
-## Integration and Configuration
+#### **Technologies:**
+- React.js
+- Tailwind CSS
+- tbDEX SDK integration
 
-### USSD Gateway Setup
+#### **Features:**
+- User registration and authentication
+- Wallet management (create, fund, withdraw)
+- Transaction history
+- Responsive design for desktop and mobile users
+- Easy-to-navigate UI/UX
 
-#### Configuration Steps
+#### **Installation & Setup:**
+```bash
+git clone https://github.com/QuaddBox/quaddfinance-frontend.git
+cd quaddfinance-frontend
+npm install
+npm start
+```
 
-1. **Gateway Selection**: 
-   - Choose a reliable USSD gateway provider with extensive coverage
-   - Ensure support for real-time bidirectional communication
+#### **Development Guide:**
+- Ensure you have Node.js installed.
+- Clone the repository and run the commands listed above to start development.
+- Modify the configuration file to connect to the backend USSD service.
 
-2. **Provider Integration**: 
-   - Configure the USSD gateway to link with major mobile service providers
-   - Implement fallback mechanisms for network issues
+#### **Environment Variables:**
+Create a `.env` file with the following:
+```
+REACT_APP_TBDEX_API_URL=<API_URL>
+REACT_APP_BACKEND_URL=<BACKEND_URL>
+```
 
-3. **Code Assignment**: 
-   - Set up unique USSD codes for various operations:
-     - *123# for main menu
-     - *123*1# for balance check
-     - *123*2# for money transfer
-     - *123*3# for transaction history
+---
 
-4. **Response Handling**: 
-   - Implement efficient parsing of USSD responses
-   - Set up error handling for timeouts and network issues
+### **2. Backend USSD Repository:**
+**Repo URL:** [Link to QuaddFinance Backend Repo]
 
-### tbDEX SDK Implementation
+#### **Technologies:**
+- Node.js
+- Express.js
+- MongoDB
+- USSD Integration APIs (Africa's Talking or Twilio)
+- tbDEX SDK
 
-#### Integration Guide
+#### **Features:**
+- USSD wallet management
+- Secure user authentication
+- Transaction processing
+- Currency conversion via tbDEX
+- Error handling and logging
 
-1. **SDK Installation**:
-   - Add tbDEX SDK to the project dependencies
-   - Ensure compatibility with the backend server environment
+#### **Installation & Setup:**
+```bash
+git clone https://github.com/QuaddBox/quaddfinance-ussd.git
+cd quaddfinance-ussd
+npm install
+npm start
+```
 
-2. **Configuration**:
-   - Set up environment variables for tbDEX SDK initialization
-   - Configure DID operations and credential validation settings
+#### **Development Guide:**
+- Ensure Node.js and MongoDB are installed.
+- Install the dependencies using `npm install`.
+- Start the backend service using `npm start`.
+- Integrate with USSD APIs by configuring environment variables.
 
-3. **DID Operations**:
-   - Implement functions for DID creation, resolution, and management
-   - Set up secure storage for DID-related data
+#### **Environment Variables:**
+Create a `.env` file with the following:
+```
+PORT=<Port_Number>
+MONGODB_URI=<Your_MongoDB_URI>
+TBDEX_API_KEY=<tbDEX_API_Key>
+USSD_PROVIDER_API_KEY=<Your_USSD_Provider_API_Key>
+```
 
-4. **Credential Handling**:
-   - Develop modules for issuing, verifying, and revoking credentials
-   - Implement caching mechanisms for frequently used credentials
+---
 
-## API Reference
+## Contributing
 
-### DID Management
+We welcome contributions to improve QuaddFinance. Please fork the repositories and submit pull requests with detailed explanations of changes.
 
-1. **Generate DID**
-   - Endpoint: `POST /generate_did`
-   - Description: Creates a new user DID
-   - Request Body:
-     ```json
-     {
-       "user_id": "string",
-       "user_data": {
-         "name": "string",
-         "phone": "string",
-         "email": "string"
-       }
-     }
-     ```
-   - Response:
-     ```json
-     {
-       "did": "did:example:123456789abcdefghi",
-       "status": "success"
-     }
-     ```
+### **Steps for Contribution:**
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature-branch-name`
+3. Commit your changes: `git commit -m 'Add new feature'`
+4. Push to the branch: `git push origin feature-branch-name`
+5. Submit a pull request.
 
-2. **Verify Credential**
-   - Endpoint: `GET /verify_credential`
-   - Description: Retrieves and verifies user credentials
-   - Query Parameters:
-     - `did`: User's DID
-     - `credential_type`: Type of credential to verify
-   - Response:
-     ```json
-     {
-       "verified": true,
-       "credential": {
-         "type": "IdentityCredential",
-         "issuer": "did:example:issuer",
-         "issuanceDate": "2023-01-01T00:00:00Z",
-         "expirationDate": "2024-01-01T00:00:00Z"
-       }
-     }
-     ```
+---
 
-### Transaction APIs
+## License
 
-1. **Initiate Transaction**
-   - Endpoint: `POST /initiate_transaction`
-   - Description: Begins a transaction with a selected PFI
-   - Request Body:
-     ```json
-     {
-       "sender_did": "did:example:sender",
-       "receiver_did": "did:example:receiver",
-       "amount": 100.00,
-       "currency": "USD",
-       "pfi_id": "PFI123"
-     }
-     ```
-   - Response:
-     ```json
-     {
-       "transaction_id": "txn123456",
-       "status": "pending",
-       "estimated_completion_time": "2023-06-01T12:30:00Z"
-     }
-     ```
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-2. **Transaction Status**
-   - Endpoint: `GET /transaction_status`
-   - Description: Provides the status of an ongoing transaction
-   - Query Parameters:
-     - `transaction_id`: Unique identifier of the transaction
-   - Response:
-     ```json
-     {
-       "transaction_id": "txn123456",
-       "status": "completed",
-       "completion_time": "2023-06-01T12:25:30Z",
-       "details": {
-         "sender": "did:example:sender",
-         "receiver": "did:example:receiver",
-         "amount": 100.00,
-         "currency": "USD",
-         "fee": 1.50
-       }
-     }
-     ```
+---
 
-## Error Management
+## Contact
 
-### Common Issues and Solutions
+For any questions, feel free to reach out to us:
 
-1. **USSD Timeout**
-   - Issue: User session expires during USSD interaction
-   - Solution: Implement session persistence and auto-resume functionality
+- **GitHub Organization:** [QuaddBox/QuaddLabs](https://github.com/QuaddBox)
+- **Email:** support@quaddlabs.com
+- **Hackathon:** tbDEX Hackathon 2024
 
-2. **DID Generation Failure**
-   - Issue: Unable to generate DID due to network or server issues
-   - Solution: Implement retry mechanism with exponential backoff
+---
 
-3. **Credential Verification Error**
-   - Issue: Unable to verify user credentials
-   - Solution: Provide detailed error messages and alternative verification methods
+### Acknowledgments
 
-4. **Transaction Processing Delay**
-   - Issue: Transaction takes longer than expected to process
-   - Solution: Implement asynchronous processing with status notifications
+Special thanks to the tbDEX community and our team members for their valuable contributions to this project.
 
-### Troubleshooting Guidelines
+--- 
 
-1. Check system logs for detailed error messages
-2. Verify network connectivity between all system components
-3. Ensure all required services (USSD gateway, tbDEX SDK, PFIs) are operational
-4. Review recent configuration changes that might have impacted the system
-
-## Security Protocols
-
-### Data Protection Measures
-
-1. **Encryption**:
-   - Implement end-to-end encryption for all data transmissions
-   - Use AES-256 for data at rest encryption
-
-2. **Access Control**:
-   - Implement role-based access control (RBAC) for system administrators
-   - Use multi-factor authentication for critical operations
-
-3. **Audit Logging**:
-   - Maintain detailed logs of all system activities
-   - Implement tamper-evident logging mechanisms
-
-4. **Secure Communication**:
-   - Use TLS 1.3 for all API communications
-   - Implement certificate pinning for mobile applications
-
-### Transaction Integrity
-
-1. **Multi-signature Approval**:
-   - Require multiple approvals for high-value transactions
-   - Implement time-locked transactions for added security
-
-2. **Fraud Detection**:
-   - Implement AI-based anomaly detection for transaction patterns
-   - Set up real-time alerts for suspicious activities
-
-3. **Secure Key Management**:
-   - Use Hardware Security Modules (HSMs) for cryptographic key storage
-   - Implement key rotation policies
-
-## Appendix
-
-### Glossary
-
-- **DID**: Decentralized Identifier
-- **PFI**: Participating Financial Institution
-- **USSD**: Unstructured Supplementary Service Data
-- **tbDEX**: Trust Bank Decentralized Exchange
-- **SDK**: Software Development Kit
-
-### References
-
-1. tbDEX SDK Documentation: [Link to tbDEX SDK docs]
-2. USSD Gateway Provider API: [Link to USSD gateway docs]
-3. Decentralized Identity Foundation (DIF) Standards: [Link to DIF standards]
-
-This comprehensive documentation provides a detailed overview of the Quadd Finance USSD Wallet Application, highlighting its innovative features, technical implementation, and security measures. It serves as a valuable resource for hackathon evaluators and participants, demonstrating the project's technological edge and its potential to revolutionize financial services accessibility.
+Feel free to edit any details such as repository URLs or any specifics on the technologies you use.
