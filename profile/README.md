@@ -141,7 +141,7 @@ For any questions, feel free to reach out: anthonytwan75official@gmail.com
 
 ### Acknowledgments
 
-Special thanks to the tbDEX discord community and our team members for their valuable contributions to this project.
+Special thanks to the tbDEX discord community for their valuable contributions to this project.
 
 --- 
 
