@@ -126,11 +126,13 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-For any questions, feel free to reach out to us:
+For any questions, feel free to reach out : anthonytwan75official@gmail.com
 
 - **Team** [QuaddBox/QuaddLabs](https://github.com/QuaddBox)
 - **Members:**
-- <a href="https://github.com/Wutche">Wutche</a>
+
+  <a href="https://github.com/Wutche">Wutche</a>
+
   <a href="https://github.com/Anthonyushie">Tony</a>
 
 - **Hackathon:** tbDEX Hackathon 2024
