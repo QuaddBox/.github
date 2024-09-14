@@ -64,7 +64,6 @@ This version includes future intentions, making it clear that these features are
 #### **Installation & Setup:**
 ```bash
 git clone https://github.com/QuaddBox/quaddfinance-frontend.git
-cd quaddfinance-frontend
 npm install
 npm start
 ```
@@ -103,7 +102,6 @@ REACT_APP_BACKEND_URL=<BACKEND_URL>
 #### **Installation & Setup:**
 ```bash
 git clone https://github.com/QuaddBox/quaddfinance-ussd.git
-cd quaddfinance-ussd
 npm install
 npm start
 ```
