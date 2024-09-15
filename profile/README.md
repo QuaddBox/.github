@@ -46,7 +46,7 @@ This version includes future intentions, making it clear that these features are
 ## Project Structure
 
 ### **1. Frontend Repository:**
-**Repo URL:** [Link to QuaddFinance Frontend Repo]
+**Repo URL:** https://github.com/QuaddBox/Quad-Finance.git
 
 #### **Technologies:**
 - Nextjs
@@ -63,27 +63,21 @@ This version includes future intentions, making it clear that these features are
 
 #### **Installation & Setup:**
 ```bash
-git clone https://github.com/QuaddBox/quaddfinance-frontend.git
+git clone https://github.com/QuaddBox/Quad-Finance.git
 npm install
-npm start
+npm run de
 ```
 
 #### **Development Guide:**
 - Ensure you have Node.js installed.
 - Clone the repository and run the commands listed above to start development.
-- Modify the configuration file to connect to the backend USSD service.
 
-#### **Environment Variables:**
-Create a `.env` file with the following:
-```
-REACT_APP_TBDEX_API_URL=<API_URL>
-REACT_APP_BACKEND_URL=<BACKEND_URL>
-```
+
 
 ---
 
 ### **2. Backend USSD Repository:**
-**Repo URL:** [Link to QuaddFinance Backend Repo]
+**Repo URL:** https://github.com/QuaddBox/Quadd-Finance-Backend-Ussd.git
 
 #### **Technologies:**
 - Node.js
@@ -101,7 +95,7 @@ REACT_APP_BACKEND_URL=<BACKEND_URL>
 
 #### **Installation & Setup:**
 ```bash
-git clone https://github.com/QuaddBox/quaddfinance-ussd.git
+git clone https://github.com/QuaddBox/Quadd-Finance-Backend-Ussd.git
 npm install
 npm start
 ```
