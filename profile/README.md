@@ -65,7 +65,7 @@ This version includes future intentions, making it clear that these features are
 ```bash
 git clone https://github.com/QuaddBox/Quad-Finance.git
 npm install
-npm run de
+npm run dev
 ```
 
 #### **Development Guide:**
