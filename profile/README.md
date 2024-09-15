@@ -104,7 +104,7 @@ npm start
 - Ensure Node.js and MongoDB are installed.
 - Install the dependencies using `npm install`.
 - Start the backend service using `npm start`.
-- Integrate with USSD APIs by configuring environment variables.
+
 
 
 
