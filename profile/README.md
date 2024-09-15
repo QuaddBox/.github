@@ -106,14 +106,7 @@ npm start
 - Start the backend service using `npm start`.
 - Integrate with USSD APIs by configuring environment variables.
 
-#### **Environment Variables:**
-Create a `.env` file with the following:
-```
-PORT=<Port_Number>
-MONGODB_URI=<Your_MongoDB_URI>
-TBDEX_API_KEY=<tbDEX_API_Key>
-USSD_PROVIDER_API_KEY=<Your_USSD_Provider_API_Key>
-```
+
 
 ---
 
